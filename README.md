@@ -82,11 +82,6 @@ but instead builds discipline through structure, accountability, and consistency
 
 ---
 
-## 📸 Preview
-
-> A demo video of the current development state is attached.
-
----
 
 ## 🔧 Future Improvements
 
