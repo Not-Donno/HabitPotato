@@ -1,11 +1,17 @@
-import { Text, View } from "react-native";
+import { Tabs } from "expo-router";
 
-export default function App() {
+export default function TabLayout() {
   return (
-    <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-xl font-bold text-gray-500">
-        Welcome to HabitPotato!
-      </Text>
-    </View>
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+        tabBarStyle: { backgroundColor: "black" },
+        tabBarActiveTintColor: "#22c55e",
+      }}
+    >
+      <Tabs.Screen name="index" options={{ title: "Home" }} />
+      <Tabs.Screen name="stats" options={{ title: "Stats" }} />
+      <Tabs.Screen name="profile" options={{ title: "Profile" }} />
+    </Tabs>
   );
 }
