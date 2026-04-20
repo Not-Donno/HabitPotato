@@ -1,50 +1,106 @@
-# Welcome to your Expo app 👋
+# 🥔 HabitPotato
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+HabitPotato is a discipline-focused habit tracking mobile app built with React Native (Expo).  
+It is designed around one core principle: **consistency over everything**.
 
-## Get started
+I couldn’t find a habit app that actually worked for me — so I built one myself.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Current Status
 
-2. Start the app
+The project is currently in **active development**.
 
-   ```bash
-   npx expo start
-   ```
+✔️ Business Logic Layer – Completed  
+✔️ Data Linking Layer – Completed  
+⏳ UI Layer – Not started yet  
+⏳ Android optimization via Android Studio – Planned  
 
-In the output, you'll find options to open the app in a
+A demo video of the current progress is attached (logic + data layer only).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🎯 Core Concept
 
-## Get a fresh project
+Most habit apps track progress.
 
-When you're ready, run:
+HabitPotato enforces discipline.
 
-```bash
-npm run reset-project
-```
+- A streak only increases if **ALL habits for the day are completed**
+- Missing even one habit affects your streak
+- Designed to build real consistency, not passive tracking
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📌 Planned Features
 
-To learn more about developing your project with Expo, look at the following resources:
+- Daily habit checklist system
+- Strict streak calculation engine
+- Smart notifications for accountability
+- Home screen widget showing current streak
+- Offline-first support (works without internet)
+- Android-native optimization using Android Studio
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🛠️ Tech Stack
 
-Join our community of developers creating universal apps.
+- React Native (Expo)
+- TypeScript
+- AsyncStorage (offline persistence)
+- Zustand (state management)
+- Expo Notifications (planned)
+- Expo Widgets (planned)
+- Android Studio (native build & optimization)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🧠 Architecture
+
+The app is being built in layers:
+
+1. **Business Logic Layer**
+   - Habit creation & deletion
+   - Daily habit generation
+   - Streak calculation system
+
+2. **Data Linking Layer**
+   - Local storage handling
+   - Syncing daily logs
+   - Offline-first structure
+
+3. **UI Layer (Upcoming)**
+   - Minimal and distraction-free interface
+   - Focus on usability and speed
+
+---
+
+## 📱 Goal
+
+To create a habit tracking system that doesn’t rely on motivation —  
+but instead builds discipline through structure, accountability, and consistency.
+
+---
+
+## 📸 Preview
+
+> A demo video of the current development state is attached.
+
+---
+
+## 🔧 Future Improvements
+
+- Better analytics for habit performance
+- Adaptive notification timing
+- Widget customization
+- Performance optimization for low-end devices
+
+---
+
+## 🤝 Status
+
+This is a personal project, built in public, evolving step by step.
+
+Feedback and suggestions are always welcome.
+
+---
